@@ -4,7 +4,7 @@ $fn=50;
 // Personal variables
 $backlash = 1;
 
-$motorPipeWidth = 20;
+$motorPipeWidth = 30;
 $motorPipeWidthThickness = 1;
 $motorPipeHeight = 80;
 $motorPipeHeightThickness = 30;
@@ -12,11 +12,11 @@ $motorPipeHeightThickness = 30;
 $motorTreeHeight = 20;
 $motorTreeRadius = 5;
 
-$springTreeWidth = 5;
+$springTreeWidth = 10;
 $springTreeHeightProportion = 0.8;
 
-$cubeJunctionHoleRadius = 0.25;
-$cubeJunctionHoleHeight = 1.25;
-$cubeJunctionWidth = 2;
-$cubeJunctionHeight = 2;
-$cubeJunctionDiagonal = 2.2;
+$cubeJunctionHoleRadius = 2.5;
+$cubeJunctionHoleHeight = 12.5;
+$cubeJunctionWidth = 20;
+$cubeJunctionHeight = 10;
+$cubeJunctionDiagonal = 22;

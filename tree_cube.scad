@@ -1,5 +1,6 @@
 include <variables.scad>
 
+
 difference(){
     intersection(){
         cube(
@@ -26,3 +27,30 @@ difference(){
     }
 };
 
+translate(
+    [
+        0, 0,
+        - ($cubeJunctionHeight + $motorPipeHeight - $motorPipeHeightThickness) / 2
+    ]){
+    difference(){
+        cube([
+            $motorPipeWidth - 2 * ($motorPipeWidthThickness + $backlash),
+            $motorPipeWidth - 2 * ($motorPipeWidthThickness + $backlash),
+            $motorPipeHeight - $motorPipeHeightThickness
+            ],
+            center=true
+            );
+        translate(
+            [0, 0, -((1 - $springTreeHeightProportion) * ($motorPipeHeight - $motorPipeHeightThickness)) / 2]
+            ){
+            cube([
+                ($springTreeWidth + $backlash),
+                ($springTreeWidth + $backlash),
+                ($springTreeHeightProportion * ($motorPipeHeight - $motorPipeHeightThickness))
+                ],
+                center=true
+                );
+        };
+
+    }
+}
