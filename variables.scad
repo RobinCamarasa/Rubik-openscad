@@ -14,3 +14,9 @@ $motorTreeRadius = 5;
 
 $springTreeWidth = 5;
 $springTreeHeightProportion = 0.8;
+
+$cubeJunctionHoleRadius = 0.25;
+$cubeJunctionHoleHeight = 1.25;
+$cubeJunctionWidth = 2;
+$cubeJunctionHeight = 2;
+$cubeJunctionDiagonal = 2.2;
