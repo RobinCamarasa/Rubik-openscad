@@ -2,15 +2,16 @@
 $fn=50;
 
 // Personal variables
-$backlash = 1;
+$backlash = 0.5;
 
-$motorPipeWidth = 30;
-$motorPipeWidthThickness = 1;
+$motorPipeWidth = 35;
+$motorPipeWidthThickness = 5;
 $motorPipeHeight = 80;
 $motorPipeHeightThickness = 30;
 
 $motorTreeHeight = 20;
 $motorTreeRadius = 5;
+$motorTreeWidth = 8;
 
 $springTreeWidth = 10;
 $springTreeHeightProportion = 0.8;
